@@ -1,15 +1,19 @@
 {
     "pull_request_id": 1,
-    "repository_name": "Test-Pr",
+    "repository_name": "PR-Processing-Test",
     "changed_files": [
-      {
-        "file_name": "app.py",
-        "changes": "Added logging for API requests."
-      },
-      {
-        "file_name": "README.md",
-        "changes": "Updated documentation for setup instructions."
-      }
+        {
+            "file_name": "example_file.py",
+            "changes": [
+                "Added a new function",
+                "Updated a variable"
+            ]
+        },
+        {
+            "file_name": "config.json",
+            "changes": [
+                "Updated configuration for testing"
+            ]
+        }
     ]
-  }
-  
+}
