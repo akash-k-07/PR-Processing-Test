@@ -2,6 +2,7 @@ import logging
 
 def hello_world():
     print("Hello, World!")
+    print("hi welcome")
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
